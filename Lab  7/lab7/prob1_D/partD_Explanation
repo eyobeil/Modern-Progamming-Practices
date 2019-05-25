@@ -1,0 +1,4 @@
+
+To use an object as a key in hashtable/hashmap:
+	1. you must override equals() and hashCode()
+	2. the class on which object is based should be immutable

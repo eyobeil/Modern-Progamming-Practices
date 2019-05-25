@@ -1,0 +1,7 @@
+The results are different because in the first case (p1.equals(p2), it is compared Person with a PersonWithJob, 
+checking: if satisfies instanceof PersonWithJob. The result is false since Person is not a subclass of PersonWithJob. 
+
+In the second test is verified: PersonWithJob satisfies instanceof Person. In this case the result will be true because PersonWithJob is
+a subclass of Person. Then names of the two objects are compared.
+
+Different equals methods were implemented using the instanceof strategy in the classes: Person and PersonWithJob.

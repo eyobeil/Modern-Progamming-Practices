@@ -1,0 +1,5 @@
+This version of equals correctly compares two Person objects. The difficulty arises when the Object version of 
+equals needs to be called, and there is no overriding version of Object equals.
+In equals(Employee e): the Argument is Wrong.It should be a Object,not the class type.
+The contains method in list compares the item in the list and the parameter passed based 
+on Object  method equals.Hence the output becomes false;

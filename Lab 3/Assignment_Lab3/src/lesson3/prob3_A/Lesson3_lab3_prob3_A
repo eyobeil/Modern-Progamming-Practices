@@ -1,0 +1,5 @@
+Does it make sense to use inheritance here?
+
+Not. Because as subclass, Circle inherits the method: computeVolume that is is not used and setHeight method, 
+it means that height can be changed.  
+
